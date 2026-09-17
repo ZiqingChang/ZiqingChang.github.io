@@ -1,11 +1,11 @@
 {% assign visitor_map_id = site.visitor_map.id | default: '' | strip %}
-{% if visitor_map_id != '' and site.private_preview != true and jekyll.environment == 'production' %}
+{% if visitor_map_id != '' %}
 <section class="visitor-map" aria-labelledby="visitor-map-heading">
   <h2 id="visitor-map-heading">Visitors</h2>
   <div class="visitor-map__widget">
     <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=a&amp;t=tt&amp;d={{ visitor_map_id | uri_escape | escape }}"></script>
   </div>
-  <p class="visitor-map__caption">Approximate visitor locations · <a href="{{ site.visitor_map.stats_url | escape }}">View visitor statistics</a> · Powered by <a href="https://mapmyvisitors.com/">MapMyVisitors</a></p>
+  <p class="visitor-map__caption"><a href="{{ site.visitor_map.stats_url | escape }}" title="Approximate visitor locations and pageview totals">Visitor statistics · MapMyVisitors</a></p>
   <noscript><p>JavaScript is required to display the visitor map.</p></noscript>
 </section>
 {% endif %}
