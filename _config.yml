@@ -311,3 +311,6 @@ compress_html:
   ignore:
     envs: development
 private_preview: false
+visitor_map:
+  id: "OTa5sS21O7PU4KbcH9A8pmokTpj0_n1TsVsIkBstqcs"
+  stats_url: "https://mapmyvisitors.com/web/1c8at"
