@@ -53,6 +53,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--profile-accent)
 .page__footer footer { max-width: 1120px; padding: 20px 30px 30px; margin: 0 auto; }
 .page__footer-copyright { font-size: 11px; color: var(--profile-muted); line-height: 1.8; }
 .page__meta { display: none; }
+.visitor-map { margin-top: 44px; }
+.visitor-map__widget { width: 100%; max-width: 720px; margin: 0 auto; }
+.visitor-map__widget img, .visitor-map__widget iframe { display: block; max-width: 100%; margin: 0 auto; border: 0; }
+.page__content .visitor-map__caption { margin: 10px 0 0; color: var(--profile-muted); font-size: 11px; text-align: center; }
 html[data-theme="dark"] { --profile-accent: #96c7b4; --profile-soft: #243b34; --profile-muted: #a7b8b0; }
 html[data-theme="dark"] .profile-button { background: #285c50; }
 html[data-theme="dark"] .interest-list li { color: #c0ded0; }
