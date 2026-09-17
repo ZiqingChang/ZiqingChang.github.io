@@ -30,3 +30,5 @@ I welcome research discussions and opportunities to collaborate on these topics.
 ## Outside Research
 
 I enjoy painting, traveling, music, and Chinese chess. I also hold a Grade 10 qualification (the highest level) in traditional Chinese painting.
+
+{% include visitor-map.html %}
